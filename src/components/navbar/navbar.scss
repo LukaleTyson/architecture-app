@@ -1,4 +1,9 @@
 .navWrapper{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
     display: flex;
     width:100%;
     flex-direction: column;

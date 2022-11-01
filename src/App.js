@@ -5,11 +5,13 @@ import './app.scss';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
   Outlet,
 } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import Services from "./pages/services/Services";
+import Development from "./pages/services/development/Development";
+import Maintenance from "./pages/services/maintenance/Maintenance";
 
 
 
@@ -41,6 +43,18 @@ function App() {
           {
           path: "/projects",
           element: <Projects />,
+        },
+          {
+          path: "/services",
+          element: <Services />,
+        },
+          {
+          path: "/services/development",
+          element: <Development />,
+        },
+          {
+          path: "/services/maintenance",
+          element: <Maintenance />,
         },
 
           

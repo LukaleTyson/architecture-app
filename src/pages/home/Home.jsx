@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='homeWrapper'>
       <section className='heroSection'>
-        <h1>We Build  <br /> The New World</h1>
+        <h1>Building Your Visions  <br /> <i>Creating Reality</i> </h1>
         <span>Complement Your Lifestyle</span>
         <button>Contact Us</button>
       </section>
