@@ -13,7 +13,7 @@ const Home = () => {
       </section>
       <section className="welcomeSection">
         <h1>WELCOME!</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos distinctio commodi at pariatur doloremque voluptatem quod dicta dignissimos ipsa. Eos possimus optio quasi, quibusdam voluptatum aliquam. Cum deleniti accusantium perspiciatis.</p>
+        <p>We are focused on building relationships, building quality environments,while maintaining our reputation in reliability and project execution. We provide the highest level of quality service and reassurance needed to complete a job on time and on budget.</p>
         <div className='titles'>
             <span>Comfortable</span>
             <span>Reliable</span>

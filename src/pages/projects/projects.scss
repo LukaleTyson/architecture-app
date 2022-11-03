@@ -1,0 +1,38 @@
+.projectsWrapper{
+    text-align: center;
+    h1{
+     font-size: 36px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      color:#636a6a;
+      margin-bottom: 30px;
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:12px;
+        .item{
+           
+            max-width: 500px;
+            img{
+                width: 100%;
+            }
+            .info{
+     
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                span{
+                    font-size: 18px;
+                    color: rgb(98, 99, 99);
+                    width: fit-content;
+                    width: -moz-fit-content;
+                    margin-top: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
